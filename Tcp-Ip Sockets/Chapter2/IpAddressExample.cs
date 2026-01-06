@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Tcp_Ip_Sockets.Chapter2;
+namespace TcpIpSocketsLearn.Chapter2;
 
 internal static class IpAddressExample
 {

@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Net.Sockets;
 
-namespace Tcp_Ip_Sockets.Chapter2;
+namespace TcpIpSocketsLearn.Chapter2;
 
 internal static class UdpEchoServer
 {
