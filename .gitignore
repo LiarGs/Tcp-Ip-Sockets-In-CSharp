@@ -1,6 +1,7 @@
 ## --- 编译输出 (Build Results) ---
 [Bb]in/
 [Oo]bj/
+[Bb]uild/
 /TestResults/
 
 ## --- Rider / JetBrains IDE 特定配置 ---
