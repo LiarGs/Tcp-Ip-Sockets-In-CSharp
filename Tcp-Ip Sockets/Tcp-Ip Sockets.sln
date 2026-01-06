@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tcp-Ip Sockets", "Tcp-Ip Sockets.csproj", "{BE9EBFC4-DE8A-42A0-8D8B-ECE7F0871C5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE9EBFC4-DE8A-42A0-8D8B-ECE7F0871C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9EBFC4-DE8A-42A0-8D8B-ECE7F0871C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9EBFC4-DE8A-42A0-8D8B-ECE7F0871C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9EBFC4-DE8A-42A0-8D8B-ECE7F0871C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

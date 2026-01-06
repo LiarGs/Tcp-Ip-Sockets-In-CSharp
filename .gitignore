@@ -1,0 +1,42 @@
+## --- 编译输出 (Build Results) ---
+[Bb]in/
+[Oo]bj/
+/TestResults/
+
+## --- Rider / JetBrains IDE 特定配置 ---
+# Rider 的项目配置文件夹，通常不需要提交，除非你需要共享代码风格配置
+.idea/
+*.sln.iml
+
+## --- Visual Studio 特定配置 (为了兼容性) ---
+# 即使你只用 Rider，保留这些也能防止协作者产生的垃圾文件
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- NuGet 包 ---
+# 现在的 .NET 项目通常不需要提交 packages 文件夹，因为包会在构建时恢复
+packages/
+*.nupkg
+# 也有可能存在的本地 nuget 配置
+nuget.config
+
+## --- 运行时产生的文件 ---
+# 崩溃日志
+*.dmp
+# 应用程序日志 (根据你的 Log 输出设置)
+*.log
+logs/
+
+## --- 操作系统生成的文件 ---
+.DS_Store
+Thumbs.db
+
+## --- 敏感信息 ---
+# 避免提交包含密钥的配置文件
+appsettings.Development.json
+appsettings.local.json
+*.local.json
+secrets.json
