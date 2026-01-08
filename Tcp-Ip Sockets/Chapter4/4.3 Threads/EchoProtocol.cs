@@ -16,7 +16,7 @@ internal class EchoProtocol : IProtocol
         _Logger     = logger;
     }
 
-    public void Handleclient()
+    public void HandleClient()
     {
         var entry = new ArrayList
         {

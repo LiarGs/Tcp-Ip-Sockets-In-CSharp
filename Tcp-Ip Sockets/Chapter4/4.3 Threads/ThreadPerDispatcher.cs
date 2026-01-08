@@ -14,7 +14,7 @@ internal class ThreadPerDispatcher : IDispatcher
                 listener.Start();
                 var clientSocket = listener.AcceptSocket(); // Block waiting for connection
                 var protocol     = protoFactory.CreateProtocol(clientSocket, logger);
-                var thread       = new Thread(protocol.Handleclient);
+                var thread       = new Thread(protocol.HandleClient);
                 thread.Start();
                 logger.WriteEntry("Created and started Thread = " + thread.GetHashCode());
             }

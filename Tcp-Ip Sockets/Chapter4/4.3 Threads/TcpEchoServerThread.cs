@@ -26,7 +26,7 @@ internal class TcpEchoServerThread
             {
                 var clientSocket = listener.AcceptSocket(); // Block waiting for connection
                 var protocol     = new EchoProtocol(clientSocket, logger);
-                var thread       = new Thread(protocol.Handleclient);
+                var thread       = new Thread(protocol.HandleClient);
                 thread.Start();
                 logger.WriteEntry("Created and started Thread = " + thread.GetHashCode());
             }

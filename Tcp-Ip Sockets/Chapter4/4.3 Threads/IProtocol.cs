@@ -2,5 +2,5 @@
 
 public interface IProtocol
 {
-    void Handleclient();
+    void HandleClient();
 }

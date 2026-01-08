@@ -53,7 +53,7 @@ internal class DispatchLoop
             {
                 var clientSocket = _Listener.AcceptSocket(); // Block waiting for connection
                 var protocol     = _ProtoFactory.CreateProtocol(clientSocket, _Logger);
-                protocol.Handleclient();
+                protocol.HandleClient();
             }
             catch (SocketException se)
             {
